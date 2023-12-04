@@ -49,7 +49,7 @@ function SettingsPage({swal}) {
                  <label>Sản phẩm nổi bật</label>
                  <select value={featuredProductId} onChange={ev => setFeaturedProductId(ev.target.value)}>
                     {products.length > 0 && products.map(product => (
-                        <option value={product._id}>{product.title}</option>
+                        <option key={product._id} value={product._id}>{product.title}</option>
                     ))}
                  </select>
                  <label>Phí vận chuyển (USD)</label>

@@ -36,7 +36,7 @@ export default function OrdersPage() {
                         </tr>
                     )}
                     {orders.length > 0 && orders.map(order => (
-                        <tr>
+                        <tr key={order._id}>
                             <td>{new Intl.DateTimeFormat('en-US', {
                                 day: '2-digit',
                                 month: '2-digit',

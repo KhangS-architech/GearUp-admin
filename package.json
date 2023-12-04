@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
+    
   },
   "dependencies": {
     "@auth/mongodb-adapter": "^2.0.0",
@@ -25,7 +26,8 @@
     "react-sortablejs": "^6.1.4",
     "react-spinners": "^0.13.8",
     "react-sweetalert2": "^0.5.2",
-    "sortablejs": "^1.15.0"
+    "sortablejs": "^1.15.0",
+    "vercel": "^32.6.1"
   },
   "devDependencies": {
     "@types/node": "^20.8.2",

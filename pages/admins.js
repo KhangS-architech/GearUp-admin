@@ -86,7 +86,7 @@ function AdminsPage({swal}) {
                         </tr>
                     )}
                     {adminEmails.length > 0 && adminEmails.map(adminEmail => (
-                        <tr>
+                        <tr key={adminEmail._id}>
                             <td>{adminEmail.email}</td>
                             <td>
                                 <button onClick={() => deleteAdmin(adminEmail._id, adminEmail.email)} className="btn-red" >Xóa</button>

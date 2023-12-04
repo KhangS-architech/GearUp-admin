@@ -25,7 +25,7 @@ export default function DeleteProductPage () {
     return (
         <Layout>
             <h1 className="text-center">
-                Bạn có muốn xóa &nbsp;"{productInfo?.title}"?
+                Bạn có muốn xóa &nbsp;&quot;{productInfo?.title}&quot;?
             </h1>
             <div className="flex gap-2 justify-center">
             <button 
